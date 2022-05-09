@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://npmjs.com/package/@windup-cli/windup">
-    <img src="https://img.shields.io/npm/dm/@windup-cli/windup.svg?sanitize=true" alt="Package monthly downloads">
+  <a href="https://npmjs.com/package/@windup.app/windup">
+    <img src="https://img.shields.io/npm/v/@windup.app/windup.svg?sanitize=true" alt="CLI version">
   </a>
   <a href="https://npmjs.com/package/@windup-cli/windup">
     <img src="https://img.shields.io/badge/template-v1.0.0-orange" alt="Template latest version">
@@ -37,7 +37,7 @@ $ node -v
 Open a terminal, or from [Visual Studio Code](https://code.visualstudio.com) , open an [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) and use the following command to install the WindUp CLI:
 
 ```shell
-$ npm i -g @windup-js/windup-cli
+$ npm i -g @windup.app/windup
 ```
 
 ## New Project
@@ -45,13 +45,13 @@ $ npm i -g @windup-js/windup-cli
 Open a terminal, or from [Visual Studio Code](https://code.visualstudio.com) , open an [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) and use the following command to setup a new WindUp project:
 
 ```shell
-$ windup
+$ create-windup
 ```
 
 Then you will be welcomed by multiple questions going through all of the options with WindUp CLI. (See example below)
 
 ```shell
-$ windup
+$ create-windup
 
 ? Select a framework: (Use arrow keys)
 > Vue 3
@@ -65,7 +65,7 @@ $ windup
 ```
 
 ```shell
-$ windup
+$ create-windup
 
 ? Select a framework: Vue 3
 ? Select a variant: (Use arrow keys)
