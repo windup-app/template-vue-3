@@ -1,0 +1,50 @@
+{
+	"name": "WindUp-Vue3-JavaScript-Template",
+	"version": "1.0.0",
+	"description": "WindUp Vue 3 Template for JavaScript",
+	"homepage": "http://localhost:3000",
+	"url": "https://github.com/windup-app/template-vue-3/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/windup-app/template-vue-3"
+	},
+	"bugs": {
+		"url": "https://github.com/windup-app/template-vue-3"
+	},
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"WindUp",
+		"Vue",
+		"Vuejs",
+		"Vue 3",
+		"JavaScript",
+		"PWA",
+		"Template"
+	],
+	"author": "WindUP, tranding name under Clockwork Studios LTD <info@cws.ltd> (https://cws.ltd)",
+	"license": {
+		"type": "MIT",
+		"url": "/MIT-License.txt"
+	},
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build"
+	},
+	"dependencies": {
+		"vue": "^3.2.25",
+		"vue-router": "^4.0.0-0",
+		"vuex": "^4.0.0-0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^2.2.0",
+		"sass-loader": "^7.2.0",
+		"sass": "^1.22.10",
+		"vite": "^2.8.0"
+	}
+}

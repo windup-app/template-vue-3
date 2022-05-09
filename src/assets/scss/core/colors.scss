@@ -1,0 +1,14 @@
+/* ----- SET:COLOR:NAMES ------------------------- */
+:root {
+   --white: #ffffff;
+   --black: #000000;
+   --red: red;
+}
+
+/* ----- SET:COLOR:VARIABLES ------------------------- */
+:root {
+   --background: var(--black);
+   --heading: var(--white);
+   --text: var(--white);
+   --cta: var(--red);
+}

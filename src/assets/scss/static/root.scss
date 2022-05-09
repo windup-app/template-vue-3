@@ -1,0 +1,22 @@
+/* ----- SET:ROOT ------------------------- */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+@media (prefers-reduced-motion: no-preference) {
+   :root {
+      scroll-behavior: smooth;
+   }
+}
+body {
+   margin: 0;
+   font-family: var(--font);
+   font-size: 1rem;
+   font-weight: var(--regular);
+   line-height: 1.5;
+   color: #212529;
+   background-color: var(--background);
+   -webkit-text-size-adjust: 100%;
+   -webkit-tap-highlight-color: var(--background);
+}

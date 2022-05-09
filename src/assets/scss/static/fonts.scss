@@ -1,0 +1,64 @@
+/* ----- SET:FONTS ------------------------- */
+h1{
+   font-family: var(--default-font);
+   font-size: 3em;
+   font-weight: var(--bold);
+   line-height: 1.8;
+   color: var(--heading);
+   margin-top: 0em;
+   margin-bottom: 0.4em;
+}
+h2{
+   font-family: var(--default-font);
+      font-size: 2.5em;
+      font-weight: var(--bold);
+      line-height: 1.8;
+      color: var(--heading);
+      margin-top: 0em;
+      margin-bottom: 0.4em;
+}
+h3 {
+   font-family: var(--default-font);
+   font-size: 2em;
+   font-weight: var(--medium);
+   line-height: 1.7;
+   color: var(--heading);
+   margin-top: 0em;
+   margin-bottom: 0.4em;
+}
+h4 {
+   font-family: var(--default-font);
+   font-size: 1.7em;
+   font-weight: var(--medium);
+   line-height: 1.5;
+   color: var(--heading);
+   margin-top: 0em;
+   margin-bottom: 0.4em;
+}
+h5 {
+   font-family: var(--default-font);
+   font-size: 1.5em;
+   font-weight: var(--regular);
+   line-height: 1.5;
+   color: var(--text);
+   margin-top: 0em;
+   margin-bottom: 0.3em;
+}
+h6 {
+   font-family: var(--default-font);
+   font-size: 1.2em;
+   font-weight: var(--regular);
+   line-height: 1.5;
+   color: var(--text);
+   margin-top: 0em;
+   margin-bottom: 0.3em;
+}
+p {
+   font-family: var(--default-font);
+   font-size: 1em;
+   font-weight: var(--regular);
+   line-height: 1.5;
+   color: var(--text);
+   margin-top: 0em;
+   margin-bottom: 0.2em;
+}

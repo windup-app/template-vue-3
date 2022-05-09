@@ -1,0 +1,22 @@
+/* ----- IMPORT:FONT FAMILY ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* ----- SET:FONT:NAMES ------------------------- */
+:root{
+   --roboto: 'Roboto', sans-serif;
+}
+
+/* ----- SET:FONT:VARIABLES ------------------------- */
+:root{
+   --default-font: var(--roboto);
+}
+
+/* ----- SET:FONT:WEIGHT:VARIABLES ------------------------- */
+:root{
+   --thin: 100;
+   --light: 300;
+   --regular: 400;
+   --medium: 500;
+   --bold: 700;
+   --black: 900;
+}
